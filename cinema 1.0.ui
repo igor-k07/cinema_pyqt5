@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1073</width>
+    <height>816</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(122, 122, 122);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0" columnstretch="4,0,0,0">
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBox">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(134, 65, 123);
+color: rgb(234, 217, 196);</string>
+        </property>
+        <property name="currentText">
+         <string>9:00</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>9:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>15:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>16:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>18:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>19:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>21:00</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>22:30</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0:00</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QDateEdit" name="dateEdit">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(113, 3, 143);
+selection-background-color: rgb(113, 3, 143);
+alternate-background-color: rgb(104, 0, 62);
+color: rgb(234, 217, 196);</string>
+        </property>
+        <property name="dateTime">
+         <datetime>
+          <hour>0</hour>
+          <minute>0</minute>
+          <second>0</second>
+          <year>2022</year>
+          <month>11</month>
+          <day>6</day>
+         </datetime>
+        </property>
+        <property name="calendarPopup">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="search_btn">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(113, 3, 143);
+color: rgb(255, 124, 126);</string>
+        </property>
+        <property name="text">
+         <string>Поиск</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2" rowspan="4">
+       <widget class="QLabel" name="label_2">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>28</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(104, 0, 62);
+color: rgb(234, 217, 196);</string>
+        </property>
+        <property name="text">
+         <string>Кинотеатр &quot;Полное погружение&quot;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(113, 3, 143);
+color: rgb(255, 124, 126);</string>
+        </property>
+        <property name="text">
+         <string>Сегодня</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(234, 217, 196);
+background-color: rgb(104, 0, 62);</string>
+        </property>
+        <property name="text">
+         <string>Сеансы:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(113, 3, 143);
+color: rgb(255, 124, 126);</string>
+        </property>
+        <property name="text">
+         <string>Завтра</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3" rowspan="4">
+       <widget class="QPushButton" name="btn_add">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>9</pointsize>
+         </font>
+        </property>
+        <property name="whatsThis">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(113, 3, 143);
+color: rgb(255, 124, 126);</string>
+        </property>
+        <property name="text">
+         <string>Добавить сеанс</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1049</width>
+         <height>651</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../../Predator/Desktop/картинки/авы/name1.qrc"/>
+ </resources>
+ <connections/>
+</ui>
